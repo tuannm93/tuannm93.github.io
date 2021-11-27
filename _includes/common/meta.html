@@ -4,8 +4,8 @@
 
 {% seo title=false %}
 <title>Tuan Nguyen Manh — Web Designer & Developer from Hanoi, Vietnam</title>
-<meta property="og:image" content="{{ site.baseurl }}/assets/images/image-share.png">
-<meta property="og:image:url" content="{{ site.baseurl }}/assets/images/image-share.png">
+<meta property="og:image" content="{{ site.baseurl }}{{ site.image }}">
+<meta property="og:image:url" content="{{ site.baseurl }}{{ site.image }}">
 <meta name="keywords" content="{% if site.author.username %}{{ site.author.username }},{% endif %}{% if page.tags != null %}{{ page.tags | join: ',' }}{% else %}{{ site.blog.keywords }}{% endif %}" />
 
 {% if page.url == "/404.html" %}

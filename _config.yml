@@ -4,7 +4,7 @@ encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor", "README", "README.md", "LICENSE"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 
-whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
+whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap, jekyll-admin]
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -26,11 +26,11 @@ url: 'https://tuannm.com' # the base hostname & protocol for your site, e.g. htt
 baseurl: '' # the subpath of your site when run to local
 
 # Seo Data
-title: TuanNM
+title: Tuan.N.M
 description: "Web Designer & Developer from Hanoi, Vietnam"
 keywords: 'tuannm,front-end,developer,blog,designer'
 type: Person
-image: /assets/images/image-share.png
+image: /assets/images/tuannm.png
 author:
   name: Tuan
   full_name: Tuan Nguyen Manh
@@ -55,10 +55,11 @@ author:
 
 home:
   section0: # something
-  section1: <h1>tuannm</h1>
+  section1: <h1>Tuan.N.M</h1>
   section2: <h2>I am a web developer focusing on front-end development. Always hungry to keep learning.</h2> #<h2>Web Designer & Developer from Hanoi, Vietnam</h2>
 
 google_tag_manager: GTM-KBJFJRZ
 
 paths:
   home: /
+  blog: https://blog.tuannm.com
