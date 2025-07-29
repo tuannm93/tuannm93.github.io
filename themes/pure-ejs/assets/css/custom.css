@@ -1,0 +1,14 @@
+.heart-footer {
+    color: #DA493E;
+    font-size: 17px;
+}
+
+.link-footer {
+    color: #453886;
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: #2196f3;
+    text-decoration: none;
+}
