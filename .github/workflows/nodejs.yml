@@ -1,8 +1,6 @@
 name: Build and Deploy Blog
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     branches:
