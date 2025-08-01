@@ -1,4 +1,4 @@
-name: Build and Deploy Blog
+name: Build & Deploy Blog
 
 on:
   workflow_dispatch:
@@ -18,14 +18,14 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Generate the test blog
+      - name: Generate the Blog
         run: |
           npm i -g notablog
           notablog generate .
         env:
           CI: true
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to Blog
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
