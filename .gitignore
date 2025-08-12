@@ -23,6 +23,8 @@ pnpm-lock.yaml
 # Project
 TODO.md
 public/*
+!public/CNAME
+!public/keybase.txt
 cache/
 *.log
 /.idea/
